@@ -1,0 +1,9 @@
+.about {
+background-color: var(--main-backgc);
+    --main-color:#FFFFFF;
+      --main-backgc:#1ABC9C;
+height: calc(100vh);
+}
+
+
+

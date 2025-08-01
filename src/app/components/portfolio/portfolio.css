@@ -1,0 +1,55 @@
+.portfolio {
+    --main-color:#2C3E50;
+      --main-backgc:#fff;
+background-color: var(--main-backgc);
+color: var(--main-color);
+
+}
+
+.layer-bluez {
+
+ background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 12px;
+   right: 12px;
+   border-radius: 6px;
+ display: none;
+    
+
+
+
+}
+
+.col-md-6{
+    position: relative;
+      transition: background-color 0.3s ease-in-out;
+
+}
+
+.col-md-6:hover .layer-bluez {
+
+display: flex;
+background-color: rgba(127, 255, 212,0.7);
+
+
+
+
+}
+
+.iconicPop img{
+    width: 600px;
+    height: 400px;
+}
+.iconicPop{
+    background-color: rgba(0, 0, 0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 11111;
+}

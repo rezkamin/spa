@@ -1,0 +1,80 @@
+<div class=" d-flex iconicPop justify-content-center align-items-center "
+  [class]="{'d-none': !isShown}"
+  (click)="closePopup()"
+>
+
+
+        <img class=" d-block " [src]="srcT" alt="">
+ 
+
+</div>
+<div class="d-flex my-5 justify-content-center portfolio">
+<div class="container-fluid container-md py-5">
+<app-headcom></app-headcom>
+
+<div class="row  ">
+
+    <div class="col-md-6 col-lg-4 mb-3  rounded-2 " (click)="setSrc($event)" >
+
+        <div class=" layer-bluez">
+
+            <i class="fa-solid fa-plus fs-3"></i>
+
+        </div>
+<!-- #img هو Template Reference Variable عشان تقدر توصل للعنصر <img>. -->
+<img #img class="  w-100 h-100 rounded-2"  src="/imgages/poert1.png" alt="">
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-3  rounded-2 " (click)="setSrc($event)">
+ <div class=" layer-bluez">
+
+            <i class="fa-solid fa-plus fs-3"></i>
+
+        </div>
+<img #img class="w-100 h-100 rounded-2" src="/imgages/port2.png" alt="">
+    </div>
+
+        <div class="col-md-6 col-lg-4 mb-3  rounded-2 " (click)="setSrc($event)">
+ <div class=" layer-bluez">
+
+            <i class="fa-solid fa-plus fs-3"></i>
+
+        </div>
+
+<img #img class="w-100 h-100 rounded-2" src="/imgages/port3.png" alt="">
+    </div>
+
+
+    <div class="col-md-6 col-lg-4 mb-3  rounded-2 " (click)="setSrc($event)">
+ <div class=" layer-bluez">
+
+            <i class="fa-solid fa-plus fs-3"></i>
+
+        </div>
+
+<img #img class="w-100 h-100 rounded-2" src="/imgages/poert1.png" alt="">
+    </div>
+
+    <div class="col-md-6 col-lg-4 mb-3  rounded-2 " (click)="setSrc($event)">
+ <div class=" layer-bluez">
+
+            <i class="fa-solid fa-plus fs-3"></i>
+
+        </div>
+
+<img #img class="w-100 h-100 rounded-2" src="/imgages/port2.png" alt="">
+    </div>
+        <div class="col-md-6 col-lg-4 mb-3  rounded-2 " (click)="setSrc($event)">
+ <div class=" layer-bluez">
+
+            <i class="fa-solid fa-plus fs-3"></i>
+
+        </div>
+
+<img #img class="w-100 h-100 rounded-2" src="/imgages/port3.png" alt="">
+    </div>
+
+</div>
+
+</div>
+</div>

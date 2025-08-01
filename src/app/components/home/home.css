@@ -1,0 +1,14 @@
+.home {
+    --main-color:#FFFFFF;
+      --main-backgc:#1ABC9C;
+background-color: var(--main-backgc);
+color: var(--main-color);
+height: calc(100vh);
+}
+
+.ava {
+
+    width: 300px;
+    height: 300px;
+
+}

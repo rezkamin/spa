@@ -1,0 +1,9 @@
+.lineo {
+
+        --main-color:#2C3E50;
+     
+    height: 4px;
+    width: 120px;
+    background-color: var(--main-color);
+
+}

@@ -1,0 +1,29 @@
+.navbar{
+   background-color:  #2C3E50;
+   --bs-navbar-brand-hover-color: #FFFFFF;
+  --bs-emphasis-color-rgb: #FFFFFF;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000000;
+
+}
+
+
+
+
+.container .navbar-brand {
+
+font-size: 32px;
+
+}
+
+.nav-item {
+
+font-size: 18px;
+line-height: 24px;
+font-weight: 400;
+
+}
+

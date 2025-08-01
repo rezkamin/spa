@@ -1,0 +1,14 @@
+.loc {
+    --main-color:#2C3E50;
+      --main-backgc:#fff;
+background-color: var(--main-color);
+color: var(--main-backgc );
+}
+
+.icon {
+
+    border: 2px white solid;
+    padding: 5px;
+    border-radius: 50%;
+
+}

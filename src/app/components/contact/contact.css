@@ -1,0 +1,28 @@
+.contact {
+    --main-color:#2C3E50;
+      --main-backgc:#fff;
+background-color: var(--main-backgc);
+color: var(--main-color);
+height: calc(100vh - 74px);
+}
+
+.btnDec {
+
+    background-color: #1ABC9C;
+
+color: var(--main-backgc);
+width: 150px;
+}
+
+form input {
+    box-shadow:none;
+  outline: none;
+    border: none;
+   border-radius: 10px;
+  border-bottom:  var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+label {
+    color: #1ABC9C;
+}
+
